@@ -1,0 +1,7 @@
+<div class ="text-box-container">
+  <!--<button class="close-button" (click)="close()"></button>-->
+  <i class="fa fa-window-close close-button" (click)="close()"></i>
+  <img src={{image}}>
+  <i *ngIf="currentSlideIndex > 0" class="fa fa-arrow-left previous-button" (click)="previousSlide()"></i>
+  <i *ngIf="slidesRemaining > 0" class="fa fa-arrow-right next-button" (click)="nextSlide()"></i>
+</div>

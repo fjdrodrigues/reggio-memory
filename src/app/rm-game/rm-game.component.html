@@ -1,0 +1,219 @@
+<div [@game]='state' class="game-container">
+  <rm-card #card
+    class="card-1-1"
+    index="0"
+    [id]="rmCards[0].id"
+    [pairID]="rmCards[0].pairID"
+    frontImage="/frontend/assets/cover_1.jpg"
+    [image]="rmCards[0].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-1-2"
+    index="1"
+    [id]="rmCards[1].id"
+    [pairID]="rmCards[1].pairID"
+    frontImage="/frontend/assets/cover_2.jpg"
+    [image]="rmCards[1].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-1-3"
+    index="2"
+    [id]="rmCards[2].id"
+    [pairID]="rmCards[2].pairID"
+    frontImage="/frontend/assets/cover_3.jpg"
+    [image]="rmCards[2].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-1-4"
+    index="3"
+    [id]="rmCards[3].id"
+    [pairID]="rmCards[3].pairID"
+    frontImage="/frontend/assets/cover_4.jpg"
+    [image]="rmCards[3].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-1-5"
+    index="4"
+    [id]="rmCards[4].id"
+    [pairID]="rmCards[4].pairID"
+    frontImage="/frontend/assets/cover_5.jpg"
+    [image]="rmCards[4].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-1-6"
+    index="5"
+    [id]="rmCards[5].id"
+    [pairID]="rmCards[5].pairID"
+    frontImage="/frontend/assets/cover_6.jpg"
+    [image]="rmCards[5].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-2-1"
+    index="6"
+    [id]="rmCards[6].id"
+    [pairID]="rmCards[6].pairID"
+    frontImage="/frontend/assets/cover_7.jpg"
+    [image]="rmCards[6].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card
+    class="card-2-2"
+    frontImage="/frontend/assets/reggio_emilia.jpg"
+    isStatic="true"
+    pairID="10"
+    [isTextBoxOpen]="textBoxOpen"
+    [isCardFlipped]="isCardFlipped"
+    (onOpenLocked)="openTextBox($event, true)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-2-3"
+    index="7"
+    [id]="rmCards[7].id"
+    [pairID]="rmCards[7].pairID"
+    frontImage="/frontend/assets/cover_8.jpg"
+    [image]="rmCards[7].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-2-4"
+    index="8"
+    [id]="rmCards[8].id"
+    [pairID]="rmCards[8].pairID"
+    frontImage="/frontend/assets/cover_9.jpg"
+    [image]="rmCards[8].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card
+    class="card-2-5"
+    frontImage="/frontend/assets/reggio_emilia.jpg"
+    isStatic="true"
+    pairID="10"
+    [isTextBoxOpen]="textBoxOpen"
+    [isCardFlipped]="isCardFlipped"
+    (onOpenLocked)="openTextBox($event, true)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-2-6"
+    index="9"
+    [id]="rmCards[9].id"
+    [pairID]="rmCards[9].pairID"
+    frontImage="/frontend/assets/cover_10.jpg"
+    [image]="rmCards[9].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-3-1"
+    index="10"
+    [id]="rmCards[10].id"
+    [pairID]="rmCards[10].pairID"
+    frontImage="/frontend/assets/cover_11.jpg"
+    [image]="rmCards[10].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-3-2"
+    index="11"
+    [id]="rmCards[11].id"
+    [pairID]="rmCards[11].pairID"
+    frontImage="/frontend/assets/cover_12.jpg"
+    [image]="rmCards[11].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-3-3"
+    index="12"
+    [id]="rmCards[12].id"
+    [pairID]="rmCards[12].pairID"
+    frontImage="/frontend/assets/cover_13.jpg"
+    [image]="rmCards[12].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-3-4"
+    index="13"
+    [id]="rmCards[13].id"
+    [pairID]="rmCards[13].pairID"
+    frontImage="/frontend/assets/cover_14.jpg"
+    [image]="rmCards[13].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-3-5"
+    index="14"
+    [id]="rmCards[14].id"
+    [pairID]="rmCards[14].pairID"
+    frontImage="/frontend/assets/cover_15.jpg"
+    [image]="rmCards[14].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+  <rm-card #card
+    class="card-3-6"
+    index="15"
+    [id]="rmCards[15].id"
+    [pairID]="rmCards[15].pairID"
+    frontImage="/frontend/assets/cover_16.jpg"
+    [image]="rmCards[15].image"
+    [isTextBoxOpen]="textBoxOpen"
+    (onFlip)="cardFlipped($event)"
+    (onOpenLocked)="openTextBox($event)"
+    >
+  </rm-card>
+</div>
+<div [@popup]='popupState' class="popup-container">
+  <text-box #textBox
+    (onClose)="popUpClosed()">
+  </text-box>
+</div>

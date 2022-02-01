@@ -1,0 +1,26 @@
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 24px;
+  color: red;
+  cursor: pointer;
+}
+
+.previous-button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 60px;
+  color: green;
+  cursor: pointer;
+}
+
+.next-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 60px;
+  color: green;
+  cursor: pointer;
+}

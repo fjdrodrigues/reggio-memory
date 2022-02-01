@@ -1,0 +1,144 @@
+.game-container {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  overflow-y: hidden;
+  grid-template-rows: [topmargin] 3px [top1] 200px [bottom1] 5px [top2] 200px [bottom2] 5px
+    [top3] 200px [bottom3] 3px [bottommargin];
+  grid-template-columns: [leftmargin] 10px [start1] 200px [end1] 10px [start2] 200px [end2]
+    10px [start3] 200px [end3] 10px [start4] 200px [end4] 10px [start5] 200px [end5] 
+    10px [start6] 200px [end6] 10px [rightmargin];
+  z-index: 50;
+}
+rm-card {
+  max-height: 200px;
+  max-width: 200px;
+  margin: 0 10px 0 10px;
+}
+
+.card-1-1 {
+  grid-column-start: start1;
+  grid-column-end: end1;
+  grid-row-start: top1;
+  grid-row-end: bottom1;
+}
+.card-1-2 {
+  grid-column-start: start2;
+  grid-column-end: end2;
+  grid-row-start: top1;
+  grid-row-end: bottom1;
+}
+.card-1-3 {
+  grid-column-start: start3;
+  grid-column-end: end3;
+  grid-row-start: top1;
+  grid-row-end: bottom1;
+}
+.card-1-4 {
+  grid-column-start: start4;
+  grid-column-end: end4;
+  grid-row-start: top1;
+  grid-row-end: bottom1;
+}
+.card-1-5 {
+  grid-column-start: start5;
+  grid-column-end: end5;
+  grid-row-start: top1;
+  grid-row-end: bottom1;
+}
+.card-1-6 {
+  grid-column-start: start6;
+  grid-column-end: end6;
+  grid-row-start: top1;
+  grid-row-end: bottom1;
+}
+.card-2-1 {
+  grid-column-start: start1;
+  grid-column-end: end1;
+  grid-row-start: top2;
+  grid-row-end: bottom2;
+}
+.card-2-2 {
+  grid-column-start: start2;
+  grid-column-end: end2;
+  grid-row-start: top2;
+  grid-row-end: bottom2;
+}
+.card-2-3 {
+  grid-column-start: start3;
+  grid-column-end: end3;
+  grid-row-start: top2;
+  grid-row-end: bottom2;
+}
+.card-2-4 {
+  grid-column-start: start4;
+  grid-column-end: end4;
+  grid-row-start: top2;
+  grid-row-end: bottom2;
+}
+.card-2-5 {
+  grid-column-start: start5;
+  grid-column-end: end5;
+  grid-row-start: top2;
+  grid-row-end: bottom2;
+}
+.card-2-6 {
+  grid-column-start: start6;
+  grid-column-end: end6;
+  grid-row-start: top2;
+  grid-row-end: bottom2;
+}
+.card-3-1 {
+  grid-column-start: start1;
+  grid-column-end: end1;
+  grid-row-start: top3;
+  grid-row-end: bottom3;
+}
+.card-3-2{
+  grid-column-start: start2;
+  grid-column-end: end2;
+  grid-row-start: top3;
+  grid-row-end: bottom3;
+}.card-3-3 {
+  grid-column-start: start3;
+  grid-column-end: end3;
+  grid-row-start: top3;
+  grid-row-end: bottom3;
+}
+.card-3-4 {
+  grid-column-start: start4;
+  grid-column-end: end4;
+  grid-row-start: top3;
+  grid-row-end: bottom3;
+}
+.card-3-5 {
+  grid-column-start: start5;
+  grid-column-end: end5;
+  grid-row-start: top3;
+  grid-row-end: bottom3;
+}
+.card-3-6 {
+  grid-column-start: start6;
+  grid-column-end: end6;
+  grid-row-start: top3;
+  grid-row-end: bottom3;
+}
+
+.popup-container {
+  margin: 3px 0 0 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 1084px) {
+  .popup-container {
+    top: 50%;
+    left: 93px;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+}

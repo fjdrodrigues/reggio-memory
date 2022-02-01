@@ -1,0 +1,11 @@
+<div class="flip-card">
+  <div class="flip-card-inner" [@flippedState]='state' (click)="onClick()">
+    <div class="flip-card-front">
+      <img *ngIf="!frontImage" src='/frontend/assets/cover_generic.jpeg' >
+      <img *ngIf="frontImage" src={{frontImage}} >
+    </div>
+    <div class="flip-card-back">
+      <img src={{image}}>
+    </div>
+  </div>
+</div>
